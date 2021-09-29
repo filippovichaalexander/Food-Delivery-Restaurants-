@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Delivery Food — delivery to your place</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet"/>
+	
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
+	<link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<a class="logo">
+				<img src="img/icon/logo.svg" alt="Logo"/>
+			</a>
+			<label class="address">
+				<input type="text" class="input input-address" placeholder="Address"/>
+			</label>
+			<div class="buttons">
+				<span class="user-name"></span>
+				<button class="button button-primary button-auth">
+					<span class="button-auth-svg"></span>
+					<span class="button-text">Log In</span>
+				</button>
+				<button class="button button-cart" id="cart-button">
+					<span class="button-cart-svg"></span>
+					<span class="button-text">Basket</span>
+				</button>
+				<button class="button button-primary button-out">
+					<span class="button-text">Log Out</span>
+					<span class="button-out-svg"></span>
+				</button>
+			</div>
+		</header>
+	</div>
+	<!-- /.container  -->
+
+	<main class="main">
+		<div class="container">
+			<div class="swiper-container">
+				<div class="container-promo swiper-wrapper">
+					<section class="promo pizza swiper-slide">
+						<h2 class="promo-title">Online Service <br/>Delivery to your place</h2>
+						<p class="promo-text">
+							Meals from your favorite restaurant will be brought by a courier wearing gloves, a mask and an antiseptic
+						</p>
+					</section>
+					<section class="promo kebab swiper-slide">
+						<h2 class="promo-title">Kebab on holiday <br> discount 35%</h2>
+						<p class="promo-text">
+							Order kebabs at any restaurant before May 10 and get a discount with the OMAGAD promo code
+						</p>
+					</section>
+					<section class="promo vegetables swiper-slide">
+						<h2 class="promo-title">20% discount on all meals <br> with the LOVEM promo codeпо </h2>
+						<p class="promo-text">
+							The meal from the restaurant will be brought along with two recipe gift books
+						</p>
+					</section>
+					<section class="promo sushi swiper-slide">
+						<h2 class="promo-title">Sets with a 30% discount <br> at the restaurant</h2>
+						<p class="promo-text">
+							Discounts for sets until May 30 using the promo code YEAHYEAH		
+						</p>
+					</section>
+				</div>
+
+			</div>
+			<section class="restaurants">
+				<div class="section-heading">
+					<h2 class="section-title">Restaurants</h2>
+					<label class="search">
+						<input type="text" class="input input-search" placeholder="Search for a meal or a restaurant"/>
+					</label>
+				</div>
+				<div class="cards cards-restaurants">
+					
+				</div>
+				<!-- /.cards -->
+			</section>
+			<section class="menu hide">
+				<div class="section-heading">
+					<h2 class="section-title restaurant-title">Pizza Plus</h2>
+					<div class="card-info">
+						<div class="rating">
+							4.5
+						</div>
+						<div class="price">from 9 $</div>
+						<div class="category">Pizza</div>
+					</div>
+					<!-- /.card-info -->
+				</div>
+				<div class="cards cards-menu">
+					
+					<!-- /.card -->
+				</div>
+				<!-- /.cards -->
+			</section>
+
+		</div>
+		<!-- /.container -->
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<img src="img/icon/logo.svg" alt="logo" class="logo footer-logo"/>
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">Reastaurants </a>
+					<a href="#" class="footer-link">Delivery man</a>
+					<a href="#" class="footer-link">Press Center</a>
+					<a href="#" class="footer-link">Contacts</a>
+				</nav>
+				<div class="social-links">
+					<a href="#" class="social-link"><img src="img/social/instagram.svg" alt="instagram"/></a>
+					<a href="#" class="social-link"><img src="img/social/fb.svg" alt="facebook"/></a>
+					<a href="#" class="social-link"><img src="img/social/vk.svg" alt="twitter"/></a>
+				</div>
+				<!-- /.social-links -->
+			</div>
+			<!-- /.footer-block -->
+		</div>
+	</footer>
+
+	<div class="modal modal-cart">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h3 class="modal-title">Basket</h3>
+				<button class="close">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="modal-body">
+				<div class="food-row">
+					<span class="food-name">Ролл угорь стандарт</span>
+					<strong class="food-price">250 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Roll eel standard</span>
+					<strong class="food-price">3 $</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Roll eel standard</span>
+					<strong class="food-price">3 $</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Roll eel standard</span>
+					<strong class="food-price">3 $</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+			</div>
+			<!-- /.modal-body -->
+			<div class="modal-footer">
+				<span class="modal-pricetag">12 $</span>
+				<div class="footer-buttons">
+					<button class="button button-primary">Order</button>
+					<button class="button clear-cart">Cancel</button>
+				</div>
+			</div>
+			<!-- /.modal-footer -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+
+	<div class="modal-auth">
+		<div class="modal-dialog modal-dialog-auth">
+			<button class="close-auth">&times;</button>
+			<form id="logInForm">
+				<fieldset class="modal-body">
+					<legend class="modal-title">Authorization</legend>
+					<label class="label-auth">
+						<span>Log In</span>
+						<input id="login" type="text">
+					</label>
+					<label class="label-auth">
+						<span>Password</span>
+						<input id="password" type="password">
+					</label>
+				</fieldset>
+				<!-- /.modal-body -->
+				<div class="modal-footer">
+					<div class="footer-buttons">
+						<button class="button button-primary button-login" type="submit">Log In</button>
+					</div>
+				</div>
+			</form>
+			<!-- /.modal-footer -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<script src="js/disabledScroll.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
+

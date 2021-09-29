@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pb01",
+    "name": "Pizza from the Chef",
+    "description": "Mozzarella cheese, tomatoes, salami, bacon, parmesan cheese, herbs, ham",
+    "price": 6.4,
+    "image": "img/pizza-burger/pizza-dacha.jpg"
+  },
+  {
+    "id": "pb02",
+    "name": "Pizza Meat platter",
+    "description": "Mozzarella cheese, branded sauce, tomatoes, chicken breast, bacon, pork, beef, herbs",
+    "price": 6.9,
+    "image": "img/pizza-burger/pizza-meat.jpg"
+  },
+  {
+    "id": "pb03",
+    "name": "Pizza Rustic",
+    "description": "Mozzarella cheese, pizza sauce, garlic, parmesan cheese, mushrooms, tomatoes, herbs, onion, chicken, bacon, ham, pepperoni",
+    "price": 7.5,
+    "image": "img/pizza-burger/pizza-village.jpg"
+  },
+  {
+    "id": "pb04",
+    "name": "Pizza Caesar",
+    "description": "Caesar sauce, chicken breast, parmesan cheese, mozzarella, croutons, tomatoes, iceberg lettuce",
+    "price": 7.6,
+    "image": "img/pizza-burger/pizza-caesar.jpg"
+  },
+  {
+    "id": "pb05",
+    "name": "Pepperoni pizza",
+    "description": "Mozzarella cheese, pizza sauce, mushrooms, pepperoni",
+    "price": 4.8,
+    "image": "img/pizza-burger/pizza-pepperoni.jpg"
+  },
+  {
+    "id": "pb06",
+    "name": "Pizza Country",
+    "description": "Mozzarella cheese, pizza sauce, bacon, french fries, chicken breast, tomato, pepperoni, ham, herbs",
+    "price": 6.5,
+    "image": "img/pizza-burger/pizza-dacha.jpg"
+  }
+]

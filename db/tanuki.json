@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tn01",
+    "name": "PHILADELPHIA NISUAZ",
+    "description": "Eel, avocado, cheese, tobiko, Nicoise sauce, sesame",
+    "price": 4.5,
+    "image": "img/tanuki/nisuaz.jpg"
+  },
+  {
+    "id": "tn02",
+    "name": "PHILADELPHIA SMOKE",
+    "description": "Smoked salmon, smoked chicken, omelet, cucumber, avocado, cheese, mix of sauces",
+    "price": 4.5,
+    "image": "img/tanuki/smoke.jpg"
+  },
+  {
+    "id": "tn03",
+    "name": "PHILADELPHIA FRESH",
+    "description": "Salmon, avocado, cucumber, cheese, omelet, tobiko, mix of sauces",
+    "price": 4.5,
+    "image": "img/tanuki/fresh.jpg"
+  },
+  {
+    "id": "tn04",
+    "name": "CALIFORNIA AGHI",
+    "description": "Salmon, avocado, crab mix, cheese, Azhi-passionfruit sauce, tobiko, sesame",
+    "price": 4.6,
+    "image": "img/tanuki/azhi.jpg"
+  },
+  {
+    "id": "tn05",
+    "name": "CALIFORNIA BLACK",
+    "description": "Shrimp, crab mix, cheese, tobiko, mix of sauces, sesame",
+    "price": 4.6,
+    "image": "img/tanuki/black.jpg"
+  },
+  {
+    "id": "tn06",
+    "name": "TANUKI",
+    "description": "Shrimp, snow crab, guacamole, cheese, cucumber, mix of sauces, tobiko, sesame",
+    "price": 6.5,
+    "image": "img/tanuki/tanuki.jpg"
+  }
+]

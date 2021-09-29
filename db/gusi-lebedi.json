@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gl01",
+    "name": "Dumplings calf with piglet",
+    "description": "Real self-made dumplings made from fluffy dough on rustic yolks and sour cream",
+    "price": 5.6,
+    "image": "img/gusi-lebedi/dumplings.jpg"
+  },
+  {
+    "id": "gl02",
+    "name": "Pilaf",
+    "description": "Pilaf on charcoal from regular rice with lamb, spices and vegetables on fat tail",
+    "price": 5.2,
+    "image": "img/gusi-lebedi/plov.jpg"
+  },
+  {
+    "id": "gl03",
+    "name": "Spit Chicken",
+    "description": "Served on pita bread with fresh tomato and cucumber, pickled onions and kebab sauce",
+    "price": 4.9,
+    "image": "img/gusi-lebedi/chick.jpg"
+  },
+  {
+    "id": "gl04",
+    "name": "Chicken soup",
+    "description": "Chicken carcass, carrots, pasta, herbs, egg, salt, spices",
+    "price": 2.3,
+    "image": "img/gusi-lebedi/chicken-soup.jpg"
+  },
+  {
+    "id": "gl05",
+    "name": "Отбивная из поросенка",
+    "description": "Толстый кусок парной свинины с томатами и грибами под сырной корочкой",
+    "price": 4.9,
+    "image": "img/gusi-lebedi/pig-chop.jpg"
+  },
+  {
+    "id": "gl06",
+    "name": "Теленок в сливочном соусе",
+    "description": "Calf in a creamy sauce",
+    "price": 5.3,
+    "image": "img/gusi-lebedi/calf-sauce.jpg"
+  },
+  {
+    "id": "gl07",
+    "name": "Baked pike perch",
+    "description": "Pike perch fillet with potatoes, village sour cream, herbs and onions",
+    "price": 4.9,
+    "image": "img/gusi-lebedi/zander.jpg"
+  },
+  {
+    "id": "gl08",
+    "name": "Nothern squid",
+    "description": "Nothern squid with garlic oil",
+    "price": 4.2,
+    "image": "img/gusi-lebedi/squid.jpg"
+  },
+  {
+    "id": "gl09",
+    "name": "Pike ear on crucian carp",
+    "description": "Rich marching fish soup with four fish, lavrukh, pepper and onion with vodka",
+    "price": 3.8,
+    "image": "img/gusi-lebedi/ear.jpg"
+  }
+]

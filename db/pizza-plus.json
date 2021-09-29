@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pp01",
+    "name": "Pizza Vesuvius",
+    "description": "Tomato sauce, Mozzarella cheese, ham, pepperoni, Jalapeñe pepper, Tobasco sauce, tomatoes",
+    "price": 5.5,
+    "image": "img/pizza-plus/pizza-vesuvius.jpg"
+  },
+  {
+    "id": "pp02",
+    "name": "Pizza Bachelor Party",
+    "description": "Tomato sauce, lean dough, low-fat cheese, corn, onions, olives, mushrooms, tomatoes, bell peppers",
+    "price": 4.5,
+    "image": "img/pizza-plus/pizza-girls.jpg"
+  },
+  {
+    "id": "pp03",
+    "name": "Pizza Ole-Ole",
+    "description": "Tomato sauce, Mozzarella cheese, cherry tomatoes, olives, herbs, mayonnaise",
+    "price": 4.4,
+    "image": "img/pizza-plus/pizza-oleole.jpg"
+  },
+  {
+    "id": "pp04",
+    "name": "Pizza Plus",
+    "description": "Tomato sauce, Mozzarella cheese, Cheddar cheese, tomatoes, pepperoni, veal, mushrooms, bacon, bell pepper",
+    "price": 8.1,
+    "image": "img/pizza-plus/pizza-plus.jpg"
+  },
+  {
+    "id": "pp05",
+    "name": "Hawaii pizza",
+    "description": "Tomato sauce, Mozzarella cheese, ham, pineapple",
+    "price": 4.4,
+    "image": "img/pizza-plus/pizza-hawaiian.jpg"
+  },
+  {
+    "id": "pp06",
+    "name": "Classic pizza",
+    "description": "Tomato sauce, Mozzarella cheese, Parmesan cheese, ham, salami, mushrooms",
+    "price": 5.1,
+    "image": "img/pizza-plus/pizza-classic.jpg"
+  }
+]
