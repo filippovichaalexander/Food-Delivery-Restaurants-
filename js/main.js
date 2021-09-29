@@ -218,7 +218,7 @@ function createCardGood( { description, image, name, price, id } ) {
       <!-- /.card-info -->
       <div class="card-buttons">
         <button class="button button-primary button-add-cart" id="${id}">
-          <span class="button-card-text">В корзину</span>
+          <span class="button-card-text">Add to cart</span>
           <span class="button-cart-svg"></span>
         </button>
         <strong class="card-price card-price-bold">${price} $</strong>
